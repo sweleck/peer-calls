@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: $color-bg;
+  background: linear-gradient(0deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 100%);
   color: $color-fg;
   margin: 0;
   font-family: $font-sans-serif;
@@ -110,18 +110,22 @@ body.call {
     border-bottom: 2px solid rgba($color-warning, 0);
     transition: border-bottom 200ms ease-in;
     text-align: center;
-    color: white;
+    color: $color-btn;
     position: relative;
 
     &:focus {
       border-bottom: 2px solid $color-warning;
       outline: none;
     }
+
+    &::placeholder {
+      color: $color-btn;
+    }
   }
 
   input[type="submit"] {
     font-family: $font-monospace;
-    @include button($color-primary, $color-warning);
+    @include button($color-fg, $color-warning);
     font-size: 1.2rem;
     padding: 1rem 1rem;
   }
