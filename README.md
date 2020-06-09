@@ -27,36 +27,11 @@ Work in progress.
 npx peer-calls
 ```
 
-## Installing locally
-
-```bash
-npm install peer-calls
-./node_modules/.bin/peer-calls
-```
-
-## Installing Globally
-
-```bash
-npm install --global peer-calls
-peer-calls
-```
-
-## Using Docker
-
-Use the [`jeremija/peer-calls`][hub] image from Docker Hub:
-
-```bash
-docker pull jeremija/peer-calls
-docker run --rm -it -p 3000:3000 jeremija/peer-calls:latest
-```
-
-[hub]: https://hub.docker.com/r/jeremija/peer-calls
-
 ## From Git Source
 
 ```bash
-git clone https://github.com/jeremija/peer-calls.git
-cd peer-calls
+git clone https://github.com/sweleck/utal.git
+cd utal
 npm install
 
 # for production
@@ -70,10 +45,10 @@ npm run start:watch
 ## Building Docker Image
 
 ```bash
-git clone https://github.com/jeremija/peer-calls
-cd peer-calls
-docker build -t peer-calls .
-docker run --rm -it -p 3000:3000 peer-calls:latest
+git clone  https://github.com/sweleck/utal.git
+cd utal
+docker build -t utal .
+docker run --rm -it -p 3000:3000 utal:latest
 ```
 
 # Configuration
