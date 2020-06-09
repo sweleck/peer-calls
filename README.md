@@ -1,17 +1,4 @@
-# Peer Calls
-
-[![Build Status][travis-badge]][travis]
-[![NPM Package][npm-badge]][npm]
-
-[travis-badge]: https://travis-ci.org/jeremija/peer-calls.svg?branch=master
-[travis]: https://travis-ci.org/jeremija/peer-calls
-[npm-badge]: https://img.shields.io/npm/v/peer-calls.svg
-[npm]: https://www.npmjs.com/package/peer-calls
-
-WebRTC peer to peer calls for everyone. See it live in action at
-[peercalls.com][peer-calls].
-
-[peer-calls]: https://peercalls.com
+[UTAL]: https://utal.ch
 
 Work in progress.
 
